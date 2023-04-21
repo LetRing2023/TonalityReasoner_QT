@@ -19,6 +19,8 @@ set(SOURCES
     main.cpp
     mainwindow.h
     mainwindow.cpp
+    reasoner_gui.h
+    reasoner_gui.cpp
 )
 
 # Define the executable

@@ -1,4 +1,5 @@
 #include <QMainWindow>
+#include "reasoner_gui.h"
 
 class MainWindow : public QMainWindow
 {
@@ -6,4 +7,6 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QString title);
     ~MainWindow();
+private:
+    Reasoner_GUI* lr_central;
 };
